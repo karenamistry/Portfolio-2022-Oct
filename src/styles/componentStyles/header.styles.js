@@ -46,9 +46,10 @@ export const Click = styled.div`
   margin: 0rem 0.25rem;
   border-radius: 0.15rem;
 
-  background-color: rgba(149, 136, 150, 0.05);
-  backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(100px);
+  background-color: rgba(18, 11, 46, 0.15);
+
+  // backdrop-filter: blur(100px);
+  // -webkit-backdrop-filter: blur(100px);
 `;
 
 export const StyledLink = styled(NavLink)`
