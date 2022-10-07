@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export const Wrapper = styled.div`
   position: fixed;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem 8rem;
   box-sizing: border-box;
   bottom: 0;
 
@@ -17,12 +17,12 @@ export const Navigation = styled(motion.div)`
   padding: 0.5rem 2rem;
   box-sizing: border-box;
   background-color: #f7f7fc;
-  // background-color: rgba(89, 82, 117, 0.75);
 
   background-color: rgba(137, 135, 153, 0.75);
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   border-radius: 0.25rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ export const Works = styled.div`
 export const Click = styled.div`
   padding: 0.5rem 1.5rem;
   margin: 0rem 0.25rem;
-  border-radius: 100rem;
+  border-radius: 0.15rem;
 
   background-color: rgba(149, 136, 150, 0.05);
   backdrop-filter: blur(100px);

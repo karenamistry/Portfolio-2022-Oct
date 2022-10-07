@@ -38,7 +38,7 @@ export default function Header() {
               </Works>
             </Span>
             <StyledLink to="/About">Archive</StyledLink>
-            <StyledLink to="/">Get in Contact</StyledLink>
+            <StyledLink to="/Contact">Get in Contact</StyledLink>
           </Navigation>
         </Wrapper>
       </Container>
