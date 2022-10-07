@@ -46,7 +46,7 @@ export const Click = styled.div`
   margin: 0rem 0.25rem;
   border-radius: 100rem;
 
-  // background-color: rgba(137, 135, 153, 0.01);
+  background-color: rgba(149, 136, 150, 0.05);
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
 `;

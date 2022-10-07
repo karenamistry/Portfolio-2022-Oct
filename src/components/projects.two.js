@@ -5,7 +5,7 @@ import { Container } from "../styles/globalStyles";
 function ProTwo() {
   return (
     <div>
-      <Container>
+      <Container fluid>
         <Giant>
           Hello, I'm Karena. I create thoughtful digital interfaces, that aim to
           understand the people using them. I'm currently a product designer at
