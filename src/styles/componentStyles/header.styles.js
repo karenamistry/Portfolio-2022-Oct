@@ -2,7 +2,10 @@ import styled, { css } from "styled-components";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import Home from "../../assets/aboutPage/home.svg";
+
 export const Wrapper = styled.div`
+  z-index: 10001;
   position: fixed;
   width: 100%;
   padding: 1.5rem 8rem;
@@ -58,3 +61,5 @@ export const StyledLink = styled(NavLink)`
   text-decoration: none;
   ${(props) => props.Name && css``}
 `;
+
+export const Icon = styled.div``;

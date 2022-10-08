@@ -8,6 +8,7 @@ import {
   Span,
   Works,
   Click,
+  Icon,
 } from "../styles/componentStyles/header.styles";
 
 export default function Header() {
@@ -37,7 +38,7 @@ export default function Header() {
                 </Click>
               </Works>
             </Span>
-            <StyledLink to="/About">Archive</StyledLink>
+            <StyledLink to="/About">Archived Works</StyledLink>
             <StyledLink to="/Contact">Get in Contact</StyledLink>
           </Navigation>
         </Wrapper>

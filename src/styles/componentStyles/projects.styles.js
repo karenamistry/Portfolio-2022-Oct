@@ -69,7 +69,7 @@ export const Image = styled(motion.div)`
 `;
 
 export const Box = styled.div`
-  height: 42vh;
+  height: 50vh;
   z-index: 99;
   //  aspect-ratio: 1;
   // height: 52vh;
