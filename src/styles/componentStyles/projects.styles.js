@@ -78,21 +78,20 @@ export const Box = styled.div`
   ${(props) =>
     props.beacons &&
     css`
-      background-color: #1f2126;
+      // background-color: #1f2126;
       color: #c0c0c0;
     `}
   ${(props) =>
     props.stocate &&
     css`
-      background-color: #007c99;
+      // background-color: #007c99;
+      // background-color: #004047;
       color: #b9dde6;
-
-      background-color: #004047;
     `}
   ${(props) =>
     props.expedite &&
     css`
-      background-color: #f7f9fa;
+      // background-color: #f7f9fa;
       color: #007fbf;
     `}
 `;

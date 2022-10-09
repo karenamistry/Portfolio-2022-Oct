@@ -2,7 +2,8 @@ import styled, { css } from "styled-components";
 
 //
 
-import Week from "../assets/workStocate/separate.png";
+// import Week from "../assets/workStocate/separate.png";
+import Week from "../assets/workStocate/smartphone-stocate-e.png";
 import SystemA from "../assets/workStocate/designsystem.png";
 import SystemB from "../assets/workStocate/designsystemb.png";
 import Adding from "../assets/workStocate/adding.png";
@@ -11,9 +12,10 @@ import UserB from "../assets/workStocate/usertesting-2.png";
 
 export const Image8Week = styled.div`
   width: 100%;
-  aspect-ratio: 3.75;
+  aspect-ratio: 1.6;
   background-image: url(${Week});
   background-size: cover;
+  background-size: 115%;
   background-repeat: no-repeat;
   background-position: center;
   // border-radius: 2rem;

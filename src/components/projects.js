@@ -18,21 +18,21 @@ function Projects() {
               <Image
                 stocate
                 transition={{ duration: 0.5, type: "spring", stiffness: 150 }}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ y: -20 }}
               ></Image>
             </StyledLink>
             <StyledLink to="/Expedite">
               <Image
                 expedite
                 transition={{ duration: 0.5, type: "spring", stiffness: 150 }}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ y: -20 }}
               ></Image>
             </StyledLink>
             <StyledLink to="/Beacons">
               <Image
                 beacons
                 transition={{ duration: 0.5, type: "spring", stiffness: 150 }}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ y: -20 }}
               ></Image>
             </StyledLink>
           </Grid>
