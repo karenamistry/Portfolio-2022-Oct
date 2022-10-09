@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Home from "../../assets/aboutPage/home.svg";
 
 export const Wrapper = styled.div`
-  z-index: 10001;
+  z-index: 1000;
   position: fixed;
   width: 100%;
   padding: 1.5rem 8rem;

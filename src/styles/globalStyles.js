@@ -26,6 +26,6 @@ export const Cursor = styled.div`
   background: #0b0327;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  z-index: 1000;
+  z-index: 1002;
   //  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 `;

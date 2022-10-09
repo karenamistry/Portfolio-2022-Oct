@@ -20,6 +20,9 @@ export const Grid = styled.div`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
+  display: none;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Work = styled.div`

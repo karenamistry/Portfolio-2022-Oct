@@ -29,7 +29,7 @@ export const Image = styled(motion.div)`
   width: 100%;
   background-position: top;
   background-size: cover;
-  height: 50vh;
+  height: 58vh;
 
   // height: 48vh;
 
@@ -69,7 +69,7 @@ export const Image = styled(motion.div)`
 `;
 
 export const Box = styled.div`
-  height: 50vh;
+  height: 60vh;
   z-index: 99;
   //  aspect-ratio: 1;
   // height: 52vh;

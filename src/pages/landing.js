@@ -8,7 +8,7 @@ function Landing() {
   return (
     <div>
       <ProTwo></ProTwo>
-      <ProThree></ProThree>
+      <Projects></Projects>
     </div>
   );
 }
@@ -17,3 +17,4 @@ export default Landing;
 
 // <Introduction></Introduction>
 // <Projects></Projects>
+// <ProThree></ProThree>
