@@ -17,9 +17,14 @@ export default function Header() {
       <Container fluid>
         <Wrapper>
           <Navigation
-            transition={{ duration: 1.25, type: "linear" }}
-            initial={{ opacity: 1 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 2,
+              type: "spring",
+              stiffness: 100,
+              delay: 2.45,
+            }}
           >
             <StyledLink to="/" Name>
               Karena Mistry
@@ -38,7 +43,11 @@ export default function Header() {
                 </Click>
               </Works>
             </Span>
-            <StyledLink to="/About">Archived Works</StyledLink>
+
+            <a href="https://www.behance.net/karenamistry" target="_blank">
+              Archived Works
+            </a>
+
             <StyledLink to="/Contact">Get in Contact</StyledLink>
           </Navigation>
         </Wrapper>

@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   z-index: 1000;
   position: fixed;
   width: 100%;
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 1.5rem;
   box-sizing: border-box;
   bottom: 0;
 
@@ -25,7 +25,9 @@ export const Navigation = styled(motion.div)`
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   border-radius: 0.25rem;
+  border-radius: 100rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
 
   display: flex;
   justify-content: space-between;
@@ -37,6 +39,7 @@ export const Span = styled.div`
   display: flex;
   align-items: center;
   color: ${(props) => props.theme.mid};
+  font-weight: 500;
 `;
 
 export const Works = styled.div`
@@ -48,8 +51,9 @@ export const Click = styled.div`
   padding: 0.5rem 1.5rem;
   margin: 0rem 0.25rem;
   border-radius: 0.15rem;
+  border-radius: 100rem;
 
-  background-color: rgba(18, 11, 46, 0.15);
+  background-color: rgba(18, 11, 46, 0.05);
 
   // backdrop-filter: blur(100px);
   // -webkit-backdrop-filter: blur(100px);

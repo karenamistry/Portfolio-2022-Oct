@@ -1,14 +1,10 @@
 import React from "react";
-import Projects from "../components/projects";
-import Footer from "../components/footer";
-import ProTwo from "../components/projects.two";
-import ProThree from "../components/projects.three";
 
+import Home from "../components/home";
 function Landing() {
   return (
     <div>
-      <ProTwo></ProTwo>
-      <Projects></Projects>
+      <Home></Home>
     </div>
   );
 }

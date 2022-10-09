@@ -14,3 +14,9 @@ a.active {
   font-weight: 700;
   color: #f7f7fc;
 }
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #cac9d1;
+}

@@ -8,7 +8,6 @@ import ScrollToTop from "./components/ScrollToTop";
 //pages
 import Landing from "./pages/landing";
 import Work from "./pages/landing";
-import About from "./pages/about";
 import Contact from "./pages/landing";
 import Beacons from "./pages/beacons";
 import Expedite from "./pages/expedite";
@@ -28,7 +27,6 @@ ${normalize}
     font-weight: 400;
     color: #120B2E;
     -webkit-font-smoothing: antialiased;
-
 
     cursor: none;
     a{
@@ -61,7 +59,6 @@ function Layout() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/" element={<Work />} />
-        <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Beacons" element={<Beacons />} />
         <Route path="/Expedite" element={<Expedite />} />

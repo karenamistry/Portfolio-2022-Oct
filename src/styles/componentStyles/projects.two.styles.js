@@ -29,7 +29,7 @@ export const Profile = styled.div`
 
 export const Avatar = styled(motion.div)`
   background-color: #898799;
-  height: 150px;
+  height: 125px;
   margin: auto;
   aspect-ratio: 1;
 
@@ -37,14 +37,13 @@ export const Avatar = styled(motion.div)`
   background-size: 110%;
   background-position: center;
   border-radius: 100%;
-  border-radius: 0.6rem;
 
   margin-bottom: 1rem;
 `;
 
 export const Name = styled.div`
-  font-weight: 600;
-  font-size: 2.182rem;
+  font-weight: 500;
+  font-size: 3.182rem;
   // padding-bottom: 0.25rem;
 
   display: flex;
@@ -53,9 +52,9 @@ export const Name = styled.div`
 
 export const Quote = styled.div`
   padding: 0rem 4rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.45rem;
-  color: #cac9d1;
+  // color: #cac9d1;
   line-height: 130%;
 `;
 
@@ -64,7 +63,6 @@ export const MotionA = styled(motion.div)``;
 export const MotionB = styled(motion.div)`
   padding-left: 0.5rem;
 `;
-
 export const MotionC = styled(motion.div)`
   padding-left: 0.5rem;
 `;
