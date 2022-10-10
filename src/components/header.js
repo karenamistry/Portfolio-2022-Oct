@@ -27,7 +27,7 @@ export default function Header() {
             }}
           >
             <StyledLink to="/" Name>
-              Home
+              Karena Mistry
             </StyledLink>
             <Span>
               Featured Works
@@ -48,7 +48,7 @@ export default function Header() {
               Archived Works
             </a>
 
-            <StyledLink to="/Contact">Get in Contact</StyledLink>
+            <StyledLink to="/Contact">Get in Touch</StyledLink>
           </Navigation>
         </Wrapper>
       </Container>

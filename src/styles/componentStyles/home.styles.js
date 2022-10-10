@@ -17,7 +17,7 @@ export const Background = styled(motion.div)`
   ${(props) =>
     props.first &&
     css`
-      height: 100vh;
+      height: 99vh;
       background-color: #3d4e66;
     `}
 
@@ -94,13 +94,14 @@ export const Title = styled.div`
   display: none;
 `;
 
-export const Project = styled.div`
+export const Project = styled(motion.div)`
   display: flex;
   gap: 2rem;
   background-color: #cac9d1;
   box-sizing: border-box;
   padding-left: 2rem;
   border-radius: 2rem;
+  box-shadow: rgba(17, 12, 46, 0.05) 0px 48px 100px 0px;
 
   ${(props) =>
     props.beacons &&
@@ -168,7 +169,7 @@ export const Works = styled.div`
       background-image: url(${Beacons});
       background-repeat: no-repeat;
       background-size: cover;
-      //background-size: 120%;
+      background-size: 110%;
       background-position: center;
     `}
 `;

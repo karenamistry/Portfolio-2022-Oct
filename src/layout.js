@@ -7,8 +7,7 @@ import Cursor from "./components/customCursor";
 import ScrollToTop from "./components/ScrollToTop";
 //pages
 import Landing from "./pages/landing";
-import Work from "./pages/landing";
-import Contact from "./pages/landing";
+import Contact from "./pages/contact";
 import Beacons from "./pages/beacons";
 import Expedite from "./pages/expedite";
 import Stocate from "./pages/stocate";
@@ -58,11 +57,10 @@ function Layout() {
       </ThemeProvider>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/" element={<Work />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Beacons" element={<Beacons />} />
-        <Route path="/Expedite" element={<Expedite />} />
         <Route path="/Stocate" element={<Stocate />} />
+        <Route path="/Expedite" element={<Expedite />} />
+        <Route path="/Beacons" element={<Beacons />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </>
   );

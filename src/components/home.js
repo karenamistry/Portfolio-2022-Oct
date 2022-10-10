@@ -95,7 +95,16 @@ function Home() {
         <Title>Featured Works</Title>
         <Width>
           <StyledLink to="/Stocate">
-            <Project stocate>
+            <Project
+              stocate
+              whileHover={{ scale: 1.06 }}
+              transition={{
+                duration: 0.05,
+                type: "spring",
+                stiffness: 200,
+                damping: 15,
+              }}
+            >
               <TextFlex>
                 <Heading>Stocate</Heading>
                 <ProjectInfo>UI &#38; UX</ProjectInfo>
@@ -110,7 +119,16 @@ function Home() {
           </StyledLink>
 
           <StyledLink to="/Expedite">
-            <Project expedite>
+            <Project
+              expedite
+              whileHover={{ scale: 1.06 }}
+              transition={{
+                duration: 0.05,
+                type: "spring",
+                stiffness: 200,
+                damping: 15,
+              }}
+            >
               <TextFlex>
                 <Heading>Expedite</Heading>
                 <ProjectInfo>UI &#38; UX</ProjectInfo>
@@ -126,7 +144,16 @@ function Home() {
           </StyledLink>
 
           <StyledLink to="/Beacons">
-            <Project beacons>
+            <Project
+              beacons
+              whileHover={{ scale: 1.06 }}
+              transition={{
+                duration: 0.05,
+                type: "spring",
+                stiffness: 200,
+                damping: 15,
+              }}
+            >
               <TextFlex>
                 <Heading>Beacons</Heading>
                 <ProjectInfo>UR, UI &#38; UX</ProjectInfo>
