@@ -27,7 +27,7 @@ export default function Header() {
             }}
           >
             <StyledLink to="/" Name>
-              Karena Mistry
+              Home
             </StyledLink>
             <Span>
               Featured Works

@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  max-width: 1076px;
+  //  max-width: 1076px;
+  max-width: 1052px;
   margin: auto;
   overflow-x: hidden;
 
