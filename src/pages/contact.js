@@ -15,7 +15,7 @@ function Contact() {
   return (
     <div>
       <Background>
-        <Title>Get in Touch With Karena</Title>
+        <Title>Get in Touch With Karena!</Title>
         <Flex>
           <Links>
             <Text>📧</Text>

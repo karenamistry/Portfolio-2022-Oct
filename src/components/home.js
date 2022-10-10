@@ -90,7 +90,6 @@ function Home() {
           </Text>
         </Wrap>
       </Background>
-
       <Background second>
         <Title>Featured Works</Title>
         <Width>

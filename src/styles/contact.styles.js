@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 export const Background = styled(motion.div)`
   width: 100vw;
   height: 100vh;
@@ -13,6 +12,8 @@ export const Background = styled(motion.div)`
   gap: 2rem;
   font-weight: 500;
 `;
+
+//comment
 
 export const Flex = styled(motion.div)`
   display: flex;
