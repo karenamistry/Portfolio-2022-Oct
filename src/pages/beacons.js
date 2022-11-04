@@ -321,7 +321,7 @@ function Beacons() {
               <span className="Bold">
                 letting users find their way around the designed prototype{" "}
               </span>
-              and provide me with their thoughts. Some takeaways:
+              and provide me with their thoughts.
             </Text>
           </Column>
 
