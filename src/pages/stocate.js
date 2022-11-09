@@ -84,9 +84,7 @@ function Stocate() {
               During my internship, I was given the opportunity to create goals
               for the product and manage the actualization of these goals
               through the product and development teams. These were the goals I
-              set, in order of importance: These goals were actualized through
-              the completion of the following solutions and systems I built
-              during my internship.
+              set, in order of importance:
             </Text>
             <List>
               <Item>
